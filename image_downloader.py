@@ -62,10 +62,10 @@ def download_images_and_update_csv(csv_path, url_column_name='url', id_column_na
     print(f"\n Updated CSV saved to: {output_csv_path}")
 
 # Replace with your actual file paths 
-csv_path = 'twitter_data.csv'
-output_csv_path = 'twitter_data_with_images.csv'
+csv_path = 'twitter_data_20250805.csv'
+output_csv_path = 'twitter_data_with_images_20250805.csv'
 output_folder = 'image/'
-git_path='https://raw.githubusercontent.com/Itugeosocial/images/refs/heads/main/image'
+git_path='https://raw.githubusercontent.com/IT-U/GSAI_PRJ_TEMA_Image_Downloader/refs/heads/main/image'
 
 download_images_and_update_csv(
     csv_path=csv_path,
